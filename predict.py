@@ -1,7 +1,4 @@
-"""
-predict.py — Quick CLI predictor for the California Housing model
-Usage: python predict.py
-"""
+
 import pickle, numpy as np
 
 with open('model.pkl', 'rb') as f:
